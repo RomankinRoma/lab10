@@ -39,10 +39,10 @@ public class SortVisitor implements ISortVisitor {
     }
 
     public int compare(Clerk clerk1, Clerk clerk2) {
-        return clerk1.getSalary() - clerk2.getSalary();
+        return clerk2.getSalary() - clerk1.getSalary();
     }
 
     public int compare(Employee employee1, Employee employee2) {
-        return employee1.getSalary() - employee2.getSalary();
+        return employee2.getSalary() - employee1.getSalary();
     }
 }

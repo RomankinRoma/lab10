@@ -28,6 +28,8 @@ public class Main {
         }
         System.out.println();
         System.out.println("------------After------------");
+        sortVisitor.sortedEmployees();
+        sortVisitor.sortedClerks();
 
         //Тут можно было всех работников собрать в массив и пробегатся по нему
         // и звать функции Accept для двух посетителей но я решил просто собрать их сперва в массивы в сорт
